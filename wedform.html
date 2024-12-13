@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zenecoil</title>
+</head> <p style="text-align: center;font-size: 22px;"><b>แบบสอบถาม</b></p>
+<hr>
+<body style="background-color: white; padding: 18px; font-family:Arial, Helvetica, sans-serif;">
+   <table border="0" align="center" style="background-color:beige;width: 50%; height: auto;"cellpadding="10" cellspacing="0" >
+    <tr>
+        <td style="text-align: center;font-size: 20px;"><b>ข้อมูลผู้ตอบแบบสอบถาม</b></td>
+    </tr>
+     <!-- ชื่อ-->
+    <tr>
+        <td style="text-align: center;font-size: 20px;"><b>ชื่อ - นามสกุล :</b></td>
+        <td><input type="text" name="name" style="width: 70%;"></td>
+    </tr>
+     <!-- รหัสนักศึกษา -->
+    <tr>
+        <td style="text-align: center;font-size: 20px;"><b>รหัสนักศึกษา :</b></td>
+        <td><input type="text" name="id" style="width: 70%;"></td>
+    </tr>
+    <!--เพศ-->
+    <tr>
+        <td style="text-align: center;font-size: 20px;"><b>เพศ :</b></td>
+     <td>   <input type="radio" name="gender" value="male">ชาย
+            <input type="radio" name="gender" value="female">หญิง
+     </td>
+    </tr>
+    <!--สังกัดคณะ-->
+    <tr>
+        <td style="text-align: center;font-size: 20px;"><b>สังกัดคณะ :</b></td>
+        <td>
+            <select name="faculty" size=" 10 "style="width:70%" id="faculty">
+                <option>วิทยาศาสตร์</option>
+                <option>วิทยาการคอมพิวเตอร์</option>
+                <option>ครุศาสตร์</option>
+                <option>บริหารธุรกิจและการจัดการ</option>
+                <option>มนุษยศาสตร์</option>
+                <option>เทคโนโลยีอุตสาหกรรม</option>
+                <option>เกษตรศาสตร์</option>
+                <option>พยาบาลศาสตร์</option>
+                <option>สาธารณสุขศาสตร์</option>
+                <option>แพทย์แผนไทยและทางเลือก</option>
+                <option>นิติศาสตร์</option>
+            </select>
+        </td>
+    </tr>
+    <!--แม่สีที่ชื่อชอบ-->
+    <tr>
+        <td style="text-align: center;font-size: 20px;"><b>แม่สีที่ชื่อชอบ :</b></td>
+        <td>
+            <input type="checkbox" name="color" value="red">สีแดง
+            <input type="checkbox" name="color" value="green">สีเขียว
+            <input type="checkbox" name="color" value="blue">สีน้ำเงิน
+        </td>
+    </tr>
+    <!--ผลไม้-->
+    <tr>
+        <td style="text-align: center;font-size: 20px;"><b>ผลไม้ที่ชื่อชอบ :</b></td>
+        <td>
+            <input type="checkbox" name="fruit">มะม่วง
+            <input type="checkbox" name="fruit">น้อยหน่า
+            <input type="checkbox" name="fruit">ทุเรียน
+            <input type="checkbox" name="fruit">ลำใย
+            <input type="checkbox" name="fruit">ฝรั่ง
+            <input type="checkbox" name="fruit">แตงโม
+        </td>
+    </tr>
+    <!--อาหารที่ชื่นชอบ-->
+    <tr>
+        <td style="text-align: center;font-size: 20px;"><b>อาหารที่ชื่นชอบ :</b></td>
+        <td>
+            <input type="checkbox" name="food">ต้มยำกุ้ง
+            <input type="checkbox" name="food">ไข่เจียวหมูสับ
+            <input type="checkbox" name="food">แกงข่าไก่
+            <input type="checkbox" name="food">แกงเขียวหวาน
+            <input type="checkbox" name="food">ผัดไทย
+            <input type="checkbox" name="food">ราดหน้าหมี่กรอบ
+        </td>
+    </tr>
+    <!--บันทึก-->
+    <tr style="vertical-align: text-bottom;">  
+        <td></td>
+        <td><input type="submit" value="บันทึก" style="background-color: green; color: white; border: 0 ;padding: 10px 10px;"></td>
+        
+    </tr>
+    
+
+
+   </table> 
+</body>
+</html>
